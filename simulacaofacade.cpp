@@ -1,4 +1,4 @@
-#include "simulacafacade.h"
+#include "simulacaofacade.h"
 
 
 QString SimulacaoFacade::compararInvestimentoEFinanciamento(Investimento *investimento, Financiamento *financiamento)

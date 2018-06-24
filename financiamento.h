@@ -9,14 +9,14 @@ class Financiamento : public QObject
 {
     Q_OBJECT
 
-    Financiamento(int nVezes, double vParcela);
-
 private:
     int numeroVezes;
     double valorParcela;
     double valorTotalFinanciado;
 
 public:
+    Financiamento(int nVezes, double vParcela);
+
     int getNumeroVezes() { return numeroVezes; }
     double getValorParcela() { return valorParcela; }
     double getValorTotalFinanciado() { return valorTotalFinanciado; }

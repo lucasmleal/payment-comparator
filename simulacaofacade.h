@@ -15,7 +15,7 @@ class SimulacaoFacade : public QObject
 private:
 
 public:
-    QString compararInvestimentoEFinanciamento(Investimento* investimento, Financiamento* financiamento);
+    static QString compararInvestimentoEFinanciamento(Investimento* investimento, Financiamento* financiamento);
 };
 
 #endif // SIMULACAO_H

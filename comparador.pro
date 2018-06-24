@@ -40,7 +40,7 @@ HEADERS += \
     cdb.h \
     tesouroselic.h \
     poupanca.h \
-    simulacafacade.h
+    simulacaofacade.h
 
 FORMS += \
         mainwindow.ui
