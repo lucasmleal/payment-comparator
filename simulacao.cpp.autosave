@@ -1,0 +1,6 @@
+#include "simulacafacadeo.h"
+
+void Simulacao::setValorAVista(double v)
+{
+    valorAVista = v;
+}

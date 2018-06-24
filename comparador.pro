@@ -26,21 +26,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    simulacao.cpp \
     investimento.cpp \
     financiamento.cpp \
     poupanca.cpp \
     tesouroselic.cpp \
-    cdb.cpp
+    cdb.cpp \
+    simulacaofacade.cpp
 
 HEADERS += \
         mainwindow.h \
-    simulacao.h \
     investimento.h \
     financiamento.h \
     cdb.h \
     tesouroselic.h \
-    poupanca.h
+    poupanca.h \
+    simulacafacade.h
 
 FORMS += \
         mainwindow.ui

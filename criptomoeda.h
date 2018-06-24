@@ -1,4 +1,0 @@
-#ifndef CRIPTOMOEDA_H
-#define CRIPTOMOEDA_H
-
-#endif // CRIPTOMOEDA_H

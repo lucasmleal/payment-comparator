@@ -2,19 +2,20 @@
 #define SIMULACAO_H
 
 #include <QObject>
+#include <QString>
 #include "financiamento.h"
 #include "investimento.h"
 
 using namespace std;
 
-class Simulacao : public QObject
+class SimulacaoFacade : public QObject
 {
     Q_OBJECT
 
 private:
-    double valorAVista;
-    Financiamento* financiamento;
-    Investimento* investimento;
+
+public:
+    QString compararInvestimentoEFinanciamento(Investimento* investimento, Financiamento* financiamento);
 };
 
 #endif // SIMULACAO_H
